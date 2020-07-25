@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company />
+    <Authors>Markus Hartmair</Authors>
+    <AssemblyName>Xunit.Compatibility.MSTest</AssemblyName>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Description>Adds XUnit backwards compatibility to MSTest</Description>
+    <Product>Xunit.Compatibility.MSTest</Product>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/hartmair/Xunit.MSTest</RepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageId>Xunit.MSTest</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="Xunit.SkippableFact" Version="1.4.13" />
+  </ItemGroup>
+
+</Project>
