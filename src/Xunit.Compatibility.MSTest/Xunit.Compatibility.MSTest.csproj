@@ -16,6 +16,7 @@
     <RepositoryUrl>https://github.com/hartmair/Xunit.MSTest</RepositoryUrl>
     <NeutralLanguage>en</NeutralLanguage>
     <PackageId>xunit.MSTest</PackageId>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
