@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xunit.Compatibility.MSTest"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{D78C20B0-0216-40C5-AED9-D2C9EC82AEAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLegacy", "TestLegacy\TestLegacy.csproj", "{23F6B8FD-D8E2-48EB-9688-3B20225898B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D78C20B0-0216-40C5-AED9-D2C9EC82AEAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D78C20B0-0216-40C5-AED9-D2C9EC82AEAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D78C20B0-0216-40C5-AED9-D2C9EC82AEAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23F6B8FD-D8E2-48EB-9688-3B20225898B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23F6B8FD-D8E2-48EB-9688-3B20225898B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23F6B8FD-D8E2-48EB-9688-3B20225898B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23F6B8FD-D8E2-48EB-9688-3B20225898B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
